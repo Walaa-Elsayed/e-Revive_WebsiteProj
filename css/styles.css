@@ -1,0 +1,251 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+:root {
+  --primary-color: #1e0734!important;
+  --light-primary-color: #633195!important;
+  --secondary-color: #189b74 !important;
+  --light-secondary-color: #37ab88 !important;
+  --fullwidth: 100%;
+}
+
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.light-primary-color {
+  color: var(--light-primary-color);
+}
+
+.bg-light-primary-color {
+  background-color: var(--light-primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.light-secondary-color {
+  color: var(--light-primary-color);
+}
+
+.bg-light-secondary-color {
+  background-color: var(--light-primary-color);
+}
+
+.footer-background{
+  background-color: #101017df;
+}
+
+.index_body,
+#register_body {
+  background-image: url(../images/login_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+nav{
+  padding: 10%;
+  border-bottom: 1px solid #e7e5e7;
+}
+
+
+#sell-btn{
+
+  width: 15rem !important;
+}
+
+.logo_style{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5rem;
+  color:#9852dd;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 1),
+               5px 4px 0px rgba(238, 235, 235, 0.897);
+  
+}
+
+.footer-logo-style{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+  color:#9852dd;
+}
+
+.shadow11 {
+  text-shadow: 2px 2px 0px rgb(22, 21, 21),
+               5px 4px 0px rgba(9, 9, 9, 0.877);
+}
+
+.header-text-content{
+  z-index: 3;
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  
+ }
+ 
+
+.header-btn{
+  width: 25rem !important;
+}
+
+
+/* Main section style */
+
+main {
+  z-index: 5;
+  position: relative;
+}
+
+#main_control_page,
+#category_control_page {
+  width: 100%;
+  height: 100%;
+  /* max-height: 100vh; */
+}
+
+
+
+.card-img-top {
+  width: 100%;
+ height: 30vh;
+}
+
+/* CSS */
+.button-9 {
+  width: 10rem !important;
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #33a986;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(140, 182, 164, 0.775) 0 0 0 4px;
+}
+
+.left-section {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 17, 88, 1) 0%,
+    rgba(37, 14, 60, 1) 100%
+  );
+}
+
+/* The style of user control page */
+
+/* This is the style of profile picture */
+
+.profile-img {
+  max-width: 200px;
+  max-height: 250px;
+}
+
+.control-menu-btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #37b58fcf, #2e98789a);
+  /* box-shadow: 10px 10px 30px #2b9072, -20px -20px 60px #3bc29a; */
+}
+
+
+.control-main-section{
+  min-height: 90vh !important;
+  height: 100%;
+
+}
+
+
+q {
+  quotes: "“" "”" "‘" "’";
+  font-size:large;
+}
+q::before {
+    content: open-quote;
+  
+}
+q::after {
+    content: close-quote;
+}
+
+.about-user-info{
+
+  color: #a7dacb;
+
+}
+
+.btn-green{
+  background-color: var(--secondary-color) !important;
+  color: white;
+}
+
+
+/* user profile style */
+
+.profile_user_name{
+
+  color: #F2A51F !important;
+  text-transform: capitalize;
+}
+
+
+/* Product image style */
+
+.product_page_img{
+
+  width: 30rem !important;
+  height: 20rem !important;
+
+}
